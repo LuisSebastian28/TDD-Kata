@@ -1,7 +1,14 @@
 
 class TorosYVacas {
+    constructor(codigoSecreto) {
+        this.codigoSecreto = codigoSecreto;
+      }
     adivinar(intento) {
-      return "Ganaste!";
+      let respuesta = "";
+      if (intento === this.codigoSecreto) {
+        return "Ganaste!";
+      }
+      return respuesta;
     }
   }
   
